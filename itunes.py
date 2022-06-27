@@ -19,5 +19,8 @@ print(json.dumps(data, indent=4, ensure_ascii=False).encode().decode())
 print('検索結果：' + str(data['resultCount']) + ' 件')
 
 print(data['results'][0]['collectionName'])
+print(data['results'][0]['trackName'])
 print(data['results'][1]['collectionName'])
+print(data['results'][1]['trackName'])
 print(data['results'][2]['collectionName'])
+print(data['results'][2]['trackName'])
